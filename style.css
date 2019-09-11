@@ -1,0 +1,101 @@
+#header
+{
+    background  : 	#808080;
+    height      : 15%;
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+}
+.tulisan-header {
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deskription-web {
+    font-size: 11pt;
+}
+#sidebar
+{
+    background  : #99ccff;  
+    float       : left;
+    height      : 400px;
+    width       :30%;
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+ 
+}
+#content
+{
+    background  : #9999ff;
+    float       : right;
+    width       : 70%;
+    height      : 400px;
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+}
+#footer
+{
+    background  : 	#808080;
+    clear       : both;
+    font-size   : 1.5em;
+    text-align  :center;
+}
+.menu-dropdown{
+    background-color: #3141ff;
+    font-size: 17px;
+    
+}
+
+.menu-dropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.menu-dropdown > ul > li {
+    float: left;
+}
+
+
+.menu-dropdown li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-dropdown li a:hover{
+    background-color: #A9A9A9;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+    color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
